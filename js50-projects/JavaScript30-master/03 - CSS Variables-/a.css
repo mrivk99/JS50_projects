@@ -1,0 +1,34 @@
+/* declare all the variables you'll use with the scope (here scope is root==html) 
+and their default values*/
+:root {
+  --color: red;
+  --spacing: 30px;
+  --blur: 10px;
+}
+/* use these variables inside styling components */
+img {
+  padding: var(--spacing);
+  background: var(--color);
+  filter: blur(var(--blur));
+}
+.h1{
+  color: var(--base);
+}
+body {
+  font-weight: 100;
+  font-size: 50px;
+  color: white;
+  background-color: darkgreen;
+  font-family: "helvetica neue", sans-serif;
+  align-items: center;
+  text-align: center;
+}
+.controls {
+  margin-bottom: 50px;
+}
+input {
+  width: 100px;
+}
+img {
+  align-self: center;
+}
