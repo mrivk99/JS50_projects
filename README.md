@@ -1,1 +1,1 @@
-# JS50_projects
+50 javascript projects in VanillaJS
